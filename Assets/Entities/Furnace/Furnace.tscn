@@ -1,11 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://db2dw6qpllits"]
 
 [ext_resource type="Texture2D" uid="uid://gcqpb3mgegh0" path="res://Assets/Entities/Furnace/Textures/FurnaceSheet.png" id="1_af4sd"]
-<<<<<<< Updated upstream
-[ext_resource type="Script" path="res://Assets/Entities/Furnace/Furnace.cs" id="1_id6sb"]
-=======
 [ext_resource type="Script" uid="uid://cevpdk88pd1pq" path="res://Assets/Entities/Furnace/Furnace.cs" id="1_id6sb"]
->>>>>>> Stashed changes
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1s7jo"]
 texture = ExtResource("1_af4sd")

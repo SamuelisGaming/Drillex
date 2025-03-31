@@ -1,13 +1,8 @@
 [gd_scene load_steps=6 format=3 uid="uid://b71mq0s2rd1dn"]
 
 [ext_resource type="Texture2D" uid="uid://bftbtbhywxwf8" path="res://Assets/Entities/Upgrader/Textures/Upgrader.png" id="1_q2upj"]
-<<<<<<< Updated upstream
-[ext_resource type="Script" path="res://Assets/Entities/Upgrader/Scripts/Upgrader.cs" id="2_txq3t"]
-[ext_resource type="Script" path="res://Assets/Entities/Upgrader/Scripts/UpgraderCell.cs" id="3_8sk7e"]
-=======
 [ext_resource type="Script" uid="uid://diyounrh3jwwr" path="res://Assets/Entities/Upgrader/Scripts/Upgrader.cs" id="2_txq3t"]
 [ext_resource type="Script" uid="uid://b8ctid261x072" path="res://Assets/Entities/Upgrader/Scripts/UpgraderCell.cs" id="3_8sk7e"]
->>>>>>> Stashed changes
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6pmuq"]
 texture = ExtResource("1_q2upj")
