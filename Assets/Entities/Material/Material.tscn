@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://dxbnybjhhyto6"]
+
+[ext_resource type="Texture2D" uid="uid://7swbfobwa8vq" path="res://Assets/Entities/Material/Textures/materials.png" id="1_hp1h8"]
+[ext_resource type="Script" path="res://Assets/Entities/Material/Material.cs" id="1_jgqht"]
+
+[node name="Material" type="Sprite2D"]
+texture_filter = 1
+scale = Vector2(1, 1)
+texture = ExtResource("1_hp1h8")
+centered = false
+region_enabled = true
+region_rect = Rect2(0, 0, 32, 32)
+script = ExtResource("1_jgqht")
+MonetaryValue = 50

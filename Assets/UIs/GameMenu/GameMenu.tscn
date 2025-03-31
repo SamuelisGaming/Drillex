@@ -1,0 +1,40 @@
+[gd_scene load_steps=2 format=3 uid="uid://b86hxsqegyxqm"]
+
+[ext_resource type="Script" path="res://Assets/UIs/GameMenu/GameMenu.cs" id="1_ejhe8"]
+
+[node name="GameMenu" type="CanvasLayer"]
+script = ExtResource("1_ejhe8")
+
+[node name="TopContainer" type="HBoxContainer" parent="."]
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 30.0
+offset_top = 10.0
+offset_right = -30.0
+offset_bottom = 8.0
+grow_horizontal = 2
+size_flags_horizontal = 3
+
+[node name="TileSelectionButton" type="OptionButton" parent="TopContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+selected = 0
+item_count = 5
+popup/item_0/text = "No Selection"
+popup/item_1/text = "Conveyor"
+popup/item_1/id = 1
+popup/item_2/text = "Mining rig"
+popup/item_2/id = 2
+popup/item_3/text = "Furnace"
+popup/item_3/id = 3
+popup/item_4/text = "Upgrader"
+popup/item_4/id = 4
+
+[node name="MainMenuButton" type="Button" parent="TopContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+text = "Main menu"
+
+[connection signal="item_selected" from="TopContainer/TileSelectionButton" to="." method="OnTileSelectionButtonItemSelected"]
+[connection signal="mouse_entered" from="TopContainer/MainMenuButton" to="." method="OnButtonMouseEntered"]
+[connection signal="pressed" from="TopContainer/MainMenuButton" to="." method="OnMainMenuButtonPressed"]

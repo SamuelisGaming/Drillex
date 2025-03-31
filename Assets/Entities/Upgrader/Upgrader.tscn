@@ -1,0 +1,33 @@
+[gd_scene load_steps=6 format=3 uid="uid://b71mq0s2rd1dn"]
+
+[ext_resource type="Texture2D" uid="uid://bftbtbhywxwf8" path="res://Assets/Entities/Upgrader/Textures/Upgrader.png" id="1_q2upj"]
+[ext_resource type="Script" path="res://Assets/Entities/Upgrader/Scripts/Upgrader.cs" id="2_txq3t"]
+[ext_resource type="Script" path="res://Assets/Entities/Upgrader/Scripts/UpgraderCell.cs" id="3_8sk7e"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6pmuq"]
+texture = ExtResource("1_q2upj")
+0:0/size_in_atlas = Vector2i(2, 2)
+0:0/0 = 0
+0:0/0/custom_data_0 = "Upgrader"
+2:0/size_in_atlas = Vector2i(2, 2)
+2:0/0 = 0
+2:0/0/custom_data_0 = "Upgrader"
+4:0/size_in_atlas = Vector2i(2, 2)
+4:0/0 = 0
+4:0/0/custom_data_0 = "Upgrader"
+6:0/size_in_atlas = Vector2i(2, 2)
+6:0/0 = 0
+6:0/0/custom_data_0 = "Upgrader"
+
+[sub_resource type="TileSet" id="TileSet_an7p0"]
+tile_size = Vector2i(32, 32)
+custom_data_layer_0/name = "Type"
+custom_data_layer_0/type = 4
+sources/0 = SubResource("TileSetAtlasSource_6pmuq")
+
+[node name="Upgrader" type="TileMapLayer"]
+tile_set = SubResource("TileSet_an7p0")
+script = ExtResource("2_txq3t")
+
+[node name="UpgraderCell" type="Node2D" parent="."]
+script = ExtResource("3_8sk7e")
