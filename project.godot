@@ -12,7 +12,11 @@ config_version=5
 
 config/name="drillex"
 run/main_scene="res://Stages/Menu/MainMenu/MainMenu.tscn"
+<<<<<<< Updated upstream
 config/features=PackedStringArray("4.3", "C#", "Mobile")
+=======
+config/features=PackedStringArray("4.4", "C#", "Mobile")
+>>>>>>> Stashed changes
 config/icon="res://icon.svg"
 
 [audio]
@@ -25,6 +29,11 @@ general/size/viewport_width=384
 window/size/viewport_width=960
 window/size/viewport_height=540
 window/size/resizable=false
+<<<<<<< Updated upstream
+=======
+window/size/window_width_override=1920
+window/size/window_height_override=1080
+>>>>>>> Stashed changes
 window/stretch/mode="viewport"
 window/stretch/scale_mode="integer"
 

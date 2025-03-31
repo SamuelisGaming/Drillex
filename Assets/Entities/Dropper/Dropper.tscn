@@ -1,6 +1,10 @@
 [gd_scene load_steps=5 format=3 uid="uid://1p6i45usicmr"]
 
+<<<<<<< Updated upstream
 [ext_resource type="Script" path="res://Assets/Entities/Dropper/Dropper.cs" id="1_5chb3"]
+=======
+[ext_resource type="Script" uid="uid://78wsc2ggjf8m" path="res://Assets/Entities/Dropper/Dropper.cs" id="1_5chb3"]
+>>>>>>> Stashed changes
 [ext_resource type="Texture2D" uid="uid://dcpj44hc3521a" path="res://Assets/Entities/Dropper/Textures/DropperSheet.png" id="1_y4feq"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_y4feq"]

@@ -1,6 +1,10 @@
 [gd_scene load_steps=5 format=3 uid="uid://bmgdx2rbgunof"]
 
+<<<<<<< Updated upstream
 [ext_resource type="Script" path="res://Assets/Entities/Conveyor/Conveyor.cs" id="1_djn0k"]
+=======
+[ext_resource type="Script" uid="uid://cfuknh6eb4wdp" path="res://Assets/Entities/Conveyor/Conveyor.cs" id="1_djn0k"]
+>>>>>>> Stashed changes
 [ext_resource type="Texture2D" uid="uid://dt5ahr8m7f85r" path="res://Assets/Entities/Conveyor/Textures/ConveyorSheet.png" id="2_264qs"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_unjeq"]

@@ -1,6 +1,10 @@
 [gd_scene load_steps=8 format=3 uid="uid://dfq2mw3hbmp8h"]
 
+<<<<<<< Updated upstream
 [ext_resource type="Script" path="res://Assets/Entities/LayerManager/LayerManager.cs" id="1_m7a52"]
+=======
+[ext_resource type="Script" uid="uid://cgvmhu0bh2yo1" path="res://Assets/Entities/LayerManager/LayerManager.cs" id="1_m7a52"]
+>>>>>>> Stashed changes
 [ext_resource type="PackedScene" uid="uid://bmgdx2rbgunof" path="res://Assets/Entities/Conveyor/Conveyor.tscn" id="1_tqric"]
 [ext_resource type="Resource" uid="uid://d4ka0bc8u1pwr" path="res://Assets/Resources/Wallet.tres" id="2_7kq2u"]
 [ext_resource type="PackedScene" uid="uid://1p6i45usicmr" path="res://Assets/Entities/Dropper/Dropper.tscn" id="2_wpoxt"]

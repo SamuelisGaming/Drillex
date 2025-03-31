@@ -1,11 +1,18 @@
 [gd_scene load_steps=3 format=3 uid="uid://dxbnybjhhyto6"]
 
 [ext_resource type="Texture2D" uid="uid://7swbfobwa8vq" path="res://Assets/Entities/Material/Textures/materials.png" id="1_hp1h8"]
+<<<<<<< Updated upstream
 [ext_resource type="Script" path="res://Assets/Entities/Material/Material.cs" id="1_jgqht"]
 
 [node name="Material" type="Sprite2D"]
 texture_filter = 1
 scale = Vector2(1, 1)
+=======
+[ext_resource type="Script" uid="uid://c4wgkrijvsyn7" path="res://Assets/Entities/Material/Material.cs" id="1_jgqht"]
+
+[node name="Material" type="Sprite2D"]
+texture_filter = 1
+>>>>>>> Stashed changes
 texture = ExtResource("1_hp1h8")
 centered = false
 region_enabled = true
